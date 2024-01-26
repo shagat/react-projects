@@ -5,7 +5,6 @@ const reactDesc = ["Fundamental", "Crucial", "Core"];
 
 export default function Header() {
   let r = genRandomInt(2);
-  console.log(r);
   const desc = reactDesc[r];
 
   return (
